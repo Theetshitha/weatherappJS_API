@@ -1,0 +1,95 @@
+body{
+    background-image: url('bg2.jpg');
+    height: 95vh;
+    width: 95vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather_app_outer_div{
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 50%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px 5px rgba(25, 25, 25, 0.411);
+    background-image: url('Bg-1.png');
+}
+
+.weather_app_main_div {
+    margin: 10%;
+    text-align: center;
+    
+}
+form{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+input {
+    padding: 10px;
+    outline: none;
+    width: 50%;
+    border-radius: 50px;
+    box-shadow: 2px 3px 5px 5px rgba(68, 69, 69, 0.354);
+    border: none;
+    font-size: medium;
+}
+
+button {
+    padding: 10px;
+    width:40%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.177);
+    color: white;
+    box-shadow: 2px 3px 5px 5px rgba(68, 69, 69, 0.354);
+    word-spacing: 20px;
+}
+
+.Weather_metrics_outer_div{
+    width: 100%;
+}
+#Weather_metrics_main_div {
+    margin-top: 20px;
+}
+
+#temperature
+{
+    font-size: 52px;
+}
+
+#windSpeed{
+    margin-top: 15%;
+    margin-left: 70%;
+    font-size: 24px;
+}
+
+#humidity{
+   position: absolute;
+   top: 65%;
+   margin-left: 3%;
+   font-size: 24px;
+}
+
+.icon{
+  font-size: 48px;
+}
+
+p{
+    font-weight: bold;
+ 
+}
+
+#location{
+    margin-top: 5%;
+    font-size: 24px;
+}
